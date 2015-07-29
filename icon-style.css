@@ -17,19 +17,37 @@ blockquote{
 	font-weight: 400;	
 	border: none;
 }
+ul{
+	list-style-type: none;
+	font-size: 16pt; 
+	line-height: 39px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;	
+	padding-right: 300px;
+	padding-top: 10px;
+}
+li{
+	float: left;
+	width: 200px;
+}
+li:hover{
+	color: #8A0808;
+	font-weight: 400;
+	cursor: pointer;
+}
 
 
-
-
+.nav{
+ height: 60px;
+}
 .right{
 	float: right;
 }
 .center{
 	margin: auto;
 }
-.background{
+.masthead{
 	width: 1500px;
-	height: 2000px;
 	background-color: #D8D8D8;
 
 }
